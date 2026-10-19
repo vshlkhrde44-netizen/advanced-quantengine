@@ -1,0 +1,514 @@
+{
+  "advisory_only": true,
+  "capture_complete": true,
+  "control_frames": 1,
+  "endpoint": "wss://public-socket.india.delta.exchange",
+  "frames": [
+    {
+      "classification": "control_or_unrequested",
+      "frame": {
+        "channels": [
+          {
+            "name": "candlestick_1m",
+            "symbols": [
+              "BTCUSD"
+            ]
+          },
+          {
+            "name": "trades",
+            "symbols": [
+              "BTCUSD"
+            ]
+          },
+          {
+            "name": "ticker",
+            "symbols": [
+              "BTCUSD"
+            ]
+          }
+        ],
+        "type": "subscriptions"
+      },
+      "receipt_ordinal": 1
+    },
+    {
+      "classification": "requested_public_data",
+      "frame": {
+        "p": "80501.0",
+        "r": "m",
+        "s": 1.0,
+        "sy": "BTCUSD",
+        "t": 1789883071812039,
+        "ts": 1789883072002015,
+        "type": "trades"
+      },
+      "receipt_ordinal": 2
+    },
+    {
+      "classification": "requested_public_data",
+      "frame": {
+        "p": "80501.0",
+        "r": "m",
+        "s": 1.0,
+        "sy": "BTCUSD",
+        "t": 1789883071805943,
+        "ts": 1789883072002322,
+        "type": "trades"
+      },
+      "receipt_ordinal": 3
+    },
+    {
+      "classification": "requested_public_data",
+      "frame": {
+        "c": 80501.0,
+        "cst": 1789883040000000,
+        "h": 80509.0,
+        "l": 80501.0,
+        "o": 80501.5,
+        "res": "1m",
+        "sy": "BTCUSD",
+        "ts": 1789883071812039,
+        "type": "candlestick_1m",
+        "v": 899.0
+      },
+      "receipt_ordinal": 4
+    },
+    {
+      "classification": "requested_public_data",
+      "frame": {
+        "p": "80501.5",
+        "r": "t",
+        "s": 80.0,
+        "sy": "BTCUSD",
+        "t": 1789883072446767,
+        "ts": 1789883072502197,
+        "type": "trades"
+      },
+      "receipt_ordinal": 5
+    },
+    {
+      "classification": "requested_public_data",
+      "frame": {
+        "c": 80501.5,
+        "cst": 1789883040000000,
+        "h": 80509.0,
+        "l": 80501.0,
+        "o": 80501.5,
+        "res": "1m",
+        "sy": "BTCUSD",
+        "ts": 1789883072446767,
+        "type": "candlestick_1m",
+        "v": 979.0
+      },
+      "receipt_ordinal": 6
+    },
+    {
+      "classification": "requested_public_data",
+      "frame": {
+        "p": "80501.5",
+        "r": "t",
+        "s": 1.0,
+        "sy": "BTCUSD",
+        "t": 1789883073299431,
+        "ts": 1789883073502019,
+        "type": "trades"
+      },
+      "receipt_ordinal": 7
+    },
+    {
+      "classification": "requested_public_data",
+      "frame": {
+        "p": "80501.5",
+        "r": "t",
+        "s": 20.0,
+        "sy": "BTCUSD",
+        "t": 1789883073019745,
+        "ts": 1789883073502315,
+        "type": "trades"
+      },
+      "receipt_ordinal": 8
+    },
+    {
+      "classification": "requested_public_data",
+      "frame": {
+        "c": 80501.5,
+        "cst": 1789883040000000,
+        "h": 80509.0,
+        "l": 80501.0,
+        "o": 80501.5,
+        "res": "1m",
+        "sy": "BTCUSD",
+        "ts": 1789883073299431,
+        "type": "candlestick_1m",
+        "v": 1000.0
+      },
+      "receipt_ordinal": 9
+    },
+    {
+      "classification": "requested_public_data",
+      "frame": {
+        "d": [
+          {
+            "g": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "i": 27,
+            "m": "80504.10472952",
+            "m24hc": "-0.6214",
+            "ohlc": [
+              81061.0,
+              81931.5,
+              80103.5,
+              80501.0
+            ],
+            "oi": [
+              "1007145",
+              "3644950.4400"
+            ],
+            "pb": [
+              "76478.25506601",
+              "84528.59770453"
+            ],
+            "q": [
+              "80501.5",
+              "5467",
+              "80501",
+              "2611",
+              null
+            ],
+            "qiv": [
+              null,
+              null,
+              "-0.44152494"
+            ],
+            "s": "BTCUSD",
+            "to": [
+              654431229.5245076,
+              654431229.5245076
+            ]
+          }
+        ],
+        "sp": "80537.5",
+        "sy": "BTCUSD",
+        "ts": 1789883071629758,
+        "type": "ticker"
+      },
+      "receipt_ordinal": 10
+    },
+    {
+      "classification": "requested_public_data",
+      "frame": {
+        "p": "80504.5",
+        "r": "t",
+        "s": 1.0,
+        "sy": "BTCUSD",
+        "t": 1789883074203247,
+        "ts": 1789883074502011,
+        "type": "trades"
+      },
+      "receipt_ordinal": 11
+    },
+    {
+      "classification": "requested_public_data",
+      "frame": {
+        "p": "80501.5",
+        "r": "t",
+        "s": 1.0,
+        "sy": "BTCUSD",
+        "t": 1789883073999600,
+        "ts": 1789883074502330,
+        "type": "trades"
+      },
+      "receipt_ordinal": 12
+    },
+    {
+      "classification": "requested_public_data",
+      "frame": {
+        "c": 80504.5,
+        "cst": 1789883040000000,
+        "h": 80509.0,
+        "l": 80501.0,
+        "o": 80501.5,
+        "res": "1m",
+        "sy": "BTCUSD",
+        "ts": 1789883074203247,
+        "type": "candlestick_1m",
+        "v": 1002.0
+      },
+      "receipt_ordinal": 13
+    },
+    {
+      "classification": "requested_public_data",
+      "frame": {
+        "p": "80503.5",
+        "r": "m",
+        "s": 100.0,
+        "sy": "BTCUSD",
+        "t": 1789883074713826,
+        "ts": 1789883075002142,
+        "type": "trades"
+      },
+      "receipt_ordinal": 14
+    },
+    {
+      "classification": "requested_public_data",
+      "frame": {
+        "c": 80503.5,
+        "cst": 1789883040000000,
+        "h": 80509.0,
+        "l": 80501.0,
+        "o": 80501.5,
+        "res": "1m",
+        "sy": "BTCUSD",
+        "ts": 1789883074713826,
+        "type": "candlestick_1m",
+        "v": 1102.0
+      },
+      "receipt_ordinal": 15
+    },
+    {
+      "classification": "requested_public_data",
+      "frame": {
+        "p": "80507.0",
+        "r": "t",
+        "s": 1.0,
+        "sy": "BTCUSD",
+        "t": 1789883075693539,
+        "ts": 1789883076001979,
+        "type": "trades"
+      },
+      "receipt_ordinal": 16
+    },
+    {
+      "classification": "requested_public_data",
+      "frame": {
+        "c": 80507.0,
+        "cst": 1789883040000000,
+        "h": 80509.0,
+        "l": 80501.0,
+        "o": 80501.5,
+        "res": "1m",
+        "sy": "BTCUSD",
+        "ts": 1789883075693539,
+        "type": "candlestick_1m",
+        "v": 1103.0
+      },
+      "receipt_ordinal": 17
+    },
+    {
+      "classification": "requested_public_data",
+      "frame": {
+        "p": "80507.0",
+        "r": "t",
+        "s": 8.0,
+        "sy": "BTCUSD",
+        "t": 1789883076232922,
+        "ts": 1789883076502070,
+        "type": "trades"
+      },
+      "receipt_ordinal": 18
+    },
+    {
+      "classification": "requested_public_data",
+      "frame": {
+        "c": 80507.0,
+        "cst": 1789883040000000,
+        "h": 80509.0,
+        "l": 80501.0,
+        "o": 80501.5,
+        "res": "1m",
+        "sy": "BTCUSD",
+        "ts": 1789883076232922,
+        "type": "candlestick_1m",
+        "v": 1111.0
+      },
+      "receipt_ordinal": 19
+    },
+    {
+      "classification": "requested_public_data",
+      "frame": {
+        "p": "80507.0",
+        "r": "t",
+        "s": 4.0,
+        "sy": "BTCUSD",
+        "t": 1789883076965770,
+        "ts": 1789883077002394,
+        "type": "trades"
+      },
+      "receipt_ordinal": 20
+    },
+    {
+      "classification": "requested_public_data",
+      "frame": {
+        "c": 80507.0,
+        "cst": 1789883040000000,
+        "h": 80509.0,
+        "l": 80501.0,
+        "o": 80501.5,
+        "res": "1m",
+        "sy": "BTCUSD",
+        "ts": 1789883076965770,
+        "type": "candlestick_1m",
+        "v": 1115.0
+      },
+      "receipt_ordinal": 21
+    },
+    {
+      "classification": "requested_public_data",
+      "frame": {
+        "p": "80506.0",
+        "r": "m",
+        "s": 1800.0,
+        "sy": "BTCUSD",
+        "t": 1789883077163664,
+        "ts": 1789883077501889,
+        "type": "trades"
+      },
+      "receipt_ordinal": 22
+    },
+    {
+      "classification": "requested_public_data",
+      "frame": {
+        "c": 80506.0,
+        "cst": 1789883040000000,
+        "h": 80509.0,
+        "l": 80501.0,
+        "o": 80501.5,
+        "res": "1m",
+        "sy": "BTCUSD",
+        "ts": 1789883077163664,
+        "type": "candlestick_1m",
+        "v": 2915.0
+      },
+      "receipt_ordinal": 23
+    },
+    {
+      "classification": "requested_public_data",
+      "frame": {
+        "p": "80507.0",
+        "r": "t",
+        "s": 10.0,
+        "sy": "BTCUSD",
+        "t": 1789883077868950,
+        "ts": 1789883078002373,
+        "type": "trades"
+      },
+      "receipt_ordinal": 24
+    },
+    {
+      "classification": "requested_public_data",
+      "frame": {
+        "p": "80507.0",
+        "r": "t",
+        "s": 5.0,
+        "sy": "BTCUSD",
+        "t": 1789883077506938,
+        "ts": 1789883078002845,
+        "type": "trades"
+      },
+      "receipt_ordinal": 25
+    },
+    {
+      "classification": "requested_public_data",
+      "frame": {
+        "c": 80507.0,
+        "cst": 1789883040000000,
+        "h": 80509.0,
+        "l": 80501.0,
+        "o": 80501.5,
+        "res": "1m",
+        "sy": "BTCUSD",
+        "ts": 1789883077868950,
+        "type": "candlestick_1m",
+        "v": 2930.0
+      },
+      "receipt_ordinal": 26
+    },
+    {
+      "classification": "requested_public_data",
+      "frame": {
+        "d": [
+          {
+            "g": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "i": 27,
+            "m": "80504.44339459",
+            "m24hc": "-0.6198",
+            "ohlc": [
+              81061.0,
+              81931.5,
+              80103.5,
+              80503.5
+            ],
+            "oi": [
+              "1007154",
+              "3644950.4400"
+            ],
+            "pb": [
+              "76481.01562126",
+              "84531.64884455"
+            ],
+            "q": [
+              "80501.5",
+              "4169",
+              "80501",
+              "3255",
+              null
+            ],
+            "qiv": [
+              null,
+              null,
+              "-0.45433794"
+            ],
+            "s": "BTCUSD",
+            "to": [
+              654431229.5245076,
+              654431229.5245076
+            ]
+          }
+        ],
+        "sp": "80538.7",
+        "sy": "BTCUSD",
+        "ts": 1789883075961257,
+        "type": "ticker"
+      },
+      "receipt_ordinal": 27
+    }
+  ],
+  "limitations": [
+    "Public receipt order is not a documented exchange sequence.",
+    "No candle frame is considered closed without an evidenced finality rule.",
+    "Absence of frames during this bounded capture is not proof of channel absence."
+  ],
+  "malformed_frames": 0,
+  "max_frames": 40,
+  "observed_channels": [
+    "candlestick_1m",
+    "subscriptions",
+    "ticker",
+    "trades"
+  ],
+  "production_wiring": "UNCHANGED",
+  "provenance": {
+    "redacted_by": "data.delta.india_fixture_harness.redact_capture_for_fixture",
+    "redaction": "removed receipt_unix_ns and started_unix only; receipt_ordinal recomputed deterministically; frames byte-preserved; no frames synthesized",
+    "source": "bounded credential-free capture of wss://public-socket.india.delta.exchange BTCUSD (public channels only, no auth, no orders)"
+  },
+  "requested_channels": [
+    "candlestick_1m",
+    "trades",
+    "ticker"
+  ],
+  "schema": "quantengine.delta-public-capture.v1",
+  "symbol": "BTCUSD",
+  "timeout_seconds": 10.0
+}

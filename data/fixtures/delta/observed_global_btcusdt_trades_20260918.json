@@ -1,0 +1,70 @@
+{
+  "capture_complete": true,
+  "control_frames": 1,
+  "endpoint": "wss://public-socket.delta.exchange",
+  "frames": [
+    {
+      "classification": "control_or_unrequested",
+      "frame": {
+        "channels": [
+          {
+            "name": "trades",
+            "symbols": [
+              "BTCUSDT"
+            ]
+          }
+        ],
+        "type": "subscriptions"
+      },
+      "receipt_ordinal": 1,
+      "receipt_unix_ns": 1789748950586578600
+    },
+    {
+      "classification": "requested_public_data",
+      "frame": {
+        "p": "81019.0",
+        "r": "t",
+        "s": 154.0,
+        "sy": "BTCUSDT",
+        "t": 1789749001958075,
+        "ts": 1789749002002745,
+        "type": "trades"
+      },
+      "receipt_ordinal": 2,
+      "receipt_unix_ns": 1789749001222455000
+    },
+    {
+      "classification": "requested_public_data",
+      "frame": {
+        "p": "81007.5",
+        "r": "t",
+        "s": 52.0,
+        "sy": "BTCUSDT",
+        "t": 1789749051926099,
+        "ts": 1789749052002821,
+        "type": "trades"
+      },
+      "receipt_ordinal": 3,
+      "receipt_unix_ns": 1789749051166361500
+    }
+  ],
+  "include_control_frames": true,
+  "limitations": [
+    "Public receipt order is not a documented exchange sequence.",
+    "No candle frame is considered closed without an evidenced finality rule.",
+    "Absence of frames during this bounded capture is not proof of channel absence."
+  ],
+  "malformed_frames": 0,
+  "max_frames": 300,
+  "observed_channels": [
+    "subscriptions",
+    "trades"
+  ],
+  "requested_channels": [
+    "trades"
+  ],
+  "schema": "quantengine.delta-public-capture.v1",
+  "started_unix": 1789748949.2173078,
+  "symbol": "BTCUSDT",
+  "timeout_seconds": 150.0
+}

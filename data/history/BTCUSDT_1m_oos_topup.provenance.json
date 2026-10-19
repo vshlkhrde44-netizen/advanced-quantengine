@@ -1,0 +1,17 @@
+{
+  "acquisition_method": "HistoricalLoader.candles_paginated",
+  "acquisition_source": "Delta /v2/history/candles",
+  "dataset_identity": "520b849b6612335d4987161d67b5163939bf9e20019dd5a25ec02b876a2310b0",
+  "fresh_after": 1788601440,
+  "identity_authority": "phase19 dataset_hash construction",
+  "merge_authority": "dedupe_merge(first-wins, gaps kept)",
+  "received": 30247,
+  "requested": 30552,
+  "row_provenance_identity": "2b07b61a2f6716430ea66e5938ed0ffd1f899538d8e6c560d61bca4401666c9c",
+  "row_provenance_schema": "row-provenance-v1",
+  "schema_version": "gate-a-raw-v1",
+  "symbol": "BTCUSDT",
+  "tier": "A-DIRECT",
+  "timeframe": "1m",
+  "venue": "DELTA"
+}

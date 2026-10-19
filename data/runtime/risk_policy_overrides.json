@@ -1,0 +1,11 @@
+{
+  "global": {
+    "auto_exit_on_opposite_signal": true,
+    "max_rr": 20.0,
+    "min_rr": 1.0,
+    "trailing_activation_r": 1.0,
+    "trailing_distance_r": 0.5,
+    "trailing_enabled": true
+  },
+  "instruments": {}
+}

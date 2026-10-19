@@ -1,0 +1,263 @@
+{
+  "capture_complete": true,
+  "control_frames": 1,
+  "endpoint": "wss://public-socket.india.delta.exchange",
+  "frames": [
+    {
+      "classification": "control_or_unrequested",
+      "frame": {
+        "channels": [
+          {
+            "name": "candlestick_1m",
+            "symbols": [
+              "BTCUSD"
+            ]
+          }
+        ],
+        "type": "subscriptions"
+      },
+      "receipt_ordinal": 1,
+      "receipt_unix_ns": 1789532526645978700
+    },
+    {
+      "classification": "requested_public_data",
+      "frame": {
+        "c": 75885.0,
+        "cst": 1789532520000000,
+        "h": 75913.0,
+        "l": 75885.0,
+        "o": 75913.0,
+        "res": "1m",
+        "sy": "BTCUSD",
+        "ts": 1789532526477122,
+        "type": "candlestick_1m",
+        "v": 982.0
+      },
+      "receipt_ordinal": 2,
+      "receipt_unix_ns": 1789532527483860200
+    },
+    {
+      "classification": "requested_public_data",
+      "frame": {
+        "c": 75885.5,
+        "cst": 1789532520000000,
+        "h": 75913.0,
+        "l": 75885.0,
+        "o": 75913.0,
+        "res": "1m",
+        "sy": "BTCUSD",
+        "ts": 1789532527462964,
+        "type": "candlestick_1m",
+        "v": 1132.0
+      },
+      "receipt_ordinal": 3,
+      "receipt_unix_ns": 1789532528485373300
+    },
+    {
+      "classification": "requested_public_data",
+      "frame": {
+        "c": 75885.0,
+        "cst": 1789532520000000,
+        "h": 75913.0,
+        "l": 75885.0,
+        "o": 75913.0,
+        "res": "1m",
+        "sy": "BTCUSD",
+        "ts": 1789532527962259,
+        "type": "candlestick_1m",
+        "v": 1221.0
+      },
+      "receipt_ordinal": 4,
+      "receipt_unix_ns": 1789532529054267800
+    },
+    {
+      "classification": "requested_public_data",
+      "frame": {
+        "c": 75885.5,
+        "cst": 1789532520000000,
+        "h": 75913.0,
+        "l": 75885.0,
+        "o": 75913.0,
+        "res": "1m",
+        "sy": "BTCUSD",
+        "ts": 1789532528717953,
+        "type": "candlestick_1m",
+        "v": 1224.0
+      },
+      "receipt_ordinal": 5,
+      "receipt_unix_ns": 1789532530003683900
+    },
+    {
+      "classification": "requested_public_data",
+      "frame": {
+        "c": 75889.0,
+        "cst": 1789532520000000,
+        "h": 75913.0,
+        "l": 75885.0,
+        "o": 75913.0,
+        "res": "1m",
+        "sy": "BTCUSD",
+        "ts": 1789532529307562,
+        "type": "candlestick_1m",
+        "v": 1244.0
+      },
+      "receipt_ordinal": 6,
+      "receipt_unix_ns": 1789532530481220600
+    },
+    {
+      "classification": "requested_public_data",
+      "frame": {
+        "c": 75891.0,
+        "cst": 1789532520000000,
+        "h": 75913.0,
+        "l": 75885.0,
+        "o": 75913.0,
+        "res": "1m",
+        "sy": "BTCUSD",
+        "ts": 1789532529683416,
+        "type": "candlestick_1m",
+        "v": 1250.0
+      },
+      "receipt_ordinal": 7,
+      "receipt_unix_ns": 1789532531121397200
+    },
+    {
+      "classification": "requested_public_data",
+      "frame": {
+        "c": 75898.5,
+        "cst": 1789532520000000,
+        "h": 75913.0,
+        "l": 75885.0,
+        "o": 75913.0,
+        "res": "1m",
+        "sy": "BTCUSD",
+        "ts": 1789532530818818,
+        "type": "candlestick_1m",
+        "v": 1314.0
+      },
+      "receipt_ordinal": 8,
+      "receipt_unix_ns": 1789532532079542500
+    },
+    {
+      "classification": "requested_public_data",
+      "frame": {
+        "c": 75898.5,
+        "cst": 1789532520000000,
+        "h": 75913.0,
+        "l": 75885.0,
+        "o": 75913.0,
+        "res": "1m",
+        "sy": "BTCUSD",
+        "ts": 1789532531116461,
+        "type": "candlestick_1m",
+        "v": 1339.0
+      },
+      "receipt_ordinal": 9,
+      "receipt_unix_ns": 1789532532475249100
+    },
+    {
+      "classification": "requested_public_data",
+      "frame": {
+        "c": 75898.5,
+        "cst": 1789532520000000,
+        "h": 75913.0,
+        "l": 75885.0,
+        "o": 75913.0,
+        "res": "1m",
+        "sy": "BTCUSD",
+        "ts": 1789532531958081,
+        "type": "candlestick_1m",
+        "v": 1345.0
+      },
+      "receipt_ordinal": 10,
+      "receipt_unix_ns": 1789532533041906500
+    },
+    {
+      "classification": "requested_public_data",
+      "frame": {
+        "c": 75898.5,
+        "cst": 1789532520000000,
+        "h": 75913.0,
+        "l": 75885.0,
+        "o": 75913.0,
+        "res": "1m",
+        "sy": "BTCUSD",
+        "ts": 1789532532897520,
+        "type": "candlestick_1m",
+        "v": 1371.0
+      },
+      "receipt_ordinal": 11,
+      "receipt_unix_ns": 1789532533999018900
+    },
+    {
+      "classification": "requested_public_data",
+      "frame": {
+        "c": 75898.5,
+        "cst": 1789532520000000,
+        "h": 75913.0,
+        "l": 75885.0,
+        "o": 75913.0,
+        "res": "1m",
+        "sy": "BTCUSD",
+        "ts": 1789532533753393,
+        "type": "candlestick_1m",
+        "v": 1373.0
+      },
+      "receipt_ordinal": 12,
+      "receipt_unix_ns": 1789532535120447100
+    },
+    {
+      "classification": "requested_public_data",
+      "frame": {
+        "c": 75898.5,
+        "cst": 1789532520000000,
+        "h": 75913.0,
+        "l": 75885.0,
+        "o": 75913.0,
+        "res": "1m",
+        "sy": "BTCUSD",
+        "ts": 1789532535687836,
+        "type": "candlestick_1m",
+        "v": 1375.0
+      },
+      "receipt_ordinal": 13,
+      "receipt_unix_ns": 1789532536986403600
+    },
+    {
+      "classification": "requested_public_data",
+      "frame": {
+        "c": 75898.5,
+        "cst": 1789532520000000,
+        "h": 75913.0,
+        "l": 75885.0,
+        "o": 75913.0,
+        "res": "1m",
+        "sy": "BTCUSD",
+        "ts": 1789532536336018,
+        "type": "candlestick_1m",
+        "v": 1377.0
+      },
+      "receipt_ordinal": 14,
+      "receipt_unix_ns": 1789532537475137900
+    }
+  ],
+  "include_control_frames": true,
+  "limitations": [
+    "Public receipt order is not a documented exchange sequence.",
+    "No candle frame is considered closed without an evidenced finality rule.",
+    "Absence of frames during this bounded capture is not proof of channel absence."
+  ],
+  "malformed_frames": 0,
+  "max_frames": 80,
+  "observed_channels": [
+    "candlestick_1m",
+    "subscriptions"
+  ],
+  "requested_channels": [
+    "candlestick_1m"
+  ],
+  "schema": "quantengine.delta-public-capture.v1",
+  "started_unix": 1789532525.0991926,
+  "symbol": "BTCUSD",
+  "timeout_seconds": 12.0
+}
